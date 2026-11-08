@@ -39,10 +39,6 @@
 2. فعّل **Server Members Intent** (Privileged Gateway Intents).
 3. ادعُ البوت بنطاقَي `bot` + `applications.commands` وصلاحيات: **View Channels** و**Send Messages** و**Embed Links**.
 
-### 2) التشغيل على Pterodactyl
-1. أنشئ سيرفرًا بـ **Node.js egg** وصورة **Node 22** أو أحدث، وارفع الملفات الخمسة كما هي.
-2. في **Startup** اجعل ملف التشغيل `index.js` (الحزم تُثبَّت من `package.json`، أو نفّذ `npm install` من الكونسول).
-3. في **Variables** (أو ملف `.env`) أضف على الأقل:
 ```env
 DISCORD_TOKEN=توكن_البوت
 OWNER_ID=معرّفك
